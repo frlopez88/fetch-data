@@ -7,6 +7,7 @@ export const Report = () => {
     let token = import.meta.env.VITE_TOKEN
 
     const [data, setData] = useState([])
+    
 
     const getData = async () => {
 

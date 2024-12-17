@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import { BrowserRouter, Routes, Route } from 'react-router-dom' 
 import { Report } from './ScreenComponent/Report'
+import { Form } from './ScreenComponent/Form'
 
 function App() {
  
@@ -12,6 +13,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Report />} ></Route>
+          <Route path='/form' element={<Form />} ></Route>
         </Routes>
       </BrowserRouter>
     </>
